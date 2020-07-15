@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-toggle',
@@ -6,10 +6,10 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
   styleUrls: ['./toggle.component.css']
 })
 export class ToggleComponent implements OnInit {
-
+  @ViewChild('toggleComp') toggleComp: ToggleComponent;
   constructor() { }
   @Input() checked = false;
-  @Output() checkedChange=new EventEmitter<boolean>();
+  @Output() checkedChange = new EventEmitter<boolean>();
   ngOnInit(): void {
 
   }
