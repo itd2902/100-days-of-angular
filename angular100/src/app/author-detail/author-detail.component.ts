@@ -16,5 +16,4 @@ export class AuthorDetailComponent implements OnInit {
   handleDelete(author: model.Author) {
     this.deteleAuthor.emit(author);
   };
-
 }

@@ -34,7 +34,7 @@ export class ProgressBarComponent implements OnInit {
   @Input() backgroundColor: string;
   @Input() progressColor: string;
   @Input() progress = 0;
-
+  checked = false
   constructor() { }
 
   ngOnInit(): void {
