@@ -1,0 +1,71 @@
+[{
+  "id": 1,
+  "firstName": "Bendicty",
+  "lastName": "Copnar",
+  "email": "bcopnar0@livejournal.com",
+  "gender": "Male",
+  "ipAddress": "174.84.75.233"
+}, {
+  "id": 2,
+  "firstName": "Redd",
+  "lastName": "Geram",
+  "email": "rgeram1@bravesites.com",
+  "gender": "Male",
+  "ipAddress": "105.36.170.150"
+}, {
+  "id": 3,
+  "firstName": "Tracey",
+  "lastName": "Cayette",
+  "email": "tcayette2@biglobe.ne.jp",
+  "gender": "Female",
+  "ipAddress": "33.81.155.121"
+}, {
+  "id": 4,
+  "firstName": "Camila",
+  "lastName": "Bruckmann",
+  "email": "cbruckmann3@wunderground.com",
+  "gender": "Female",
+  "ipAddress": "104.221.132.252"
+}, {
+  "id": 5,
+  "firstName": "Chaim",
+  "lastName": "D'eath",
+  "email": "cdeath4@hatena.ne.jp",
+  "gender": "Male",
+  "ipAddress": "43.153.66.105"
+}, {
+  "id": 6,
+  "firstName": "Claribel",
+  "lastName": "Grahlmans",
+  "email": "cgrahlmans5@mediafire.com",
+  "gender": "Female",
+  "ipAddress": "56.236.248.201"
+}, {
+  "id": 7,
+  "firstName": "Rolfe",
+  "lastName": "Godspeede",
+  "email": "rgodspeede6@sun.com",
+  "gender": "Male",
+  "ipAddress": "59.34.110.3"
+}, {
+  "id": 8,
+  "firstName": "Horace",
+  "lastName": "Dell Casa",
+  "email": "hdellcasa7@typepad.com",
+  "gender": "Male",
+  "ipAddress": "128.210.163.210"
+}, {
+  "id": 9,
+  "firstName": "Martguerita",
+  "lastName": "Ragbourn",
+  "email": "mragbourn8@livejournal.com",
+  "gender": "Female",
+  "ipAddress": "179.111.85.53"
+}, {
+  "id": 10,
+  "firstName": "Susan",
+  "lastName": "Burril",
+  "email": "sburril9@topsy.com",
+  "gender": "Female",
+  "ipAddress": "44.141.171.192"
+}]
