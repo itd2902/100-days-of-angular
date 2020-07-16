@@ -2,6 +2,15 @@
 <app-progress-bar [progress]="15" [backgroundColor]="'#9e9e9e'" [progressColor]="'#2e8b57'">
 </app-progress-bar>
 <!-- <app-author-list></app-author-list> -->
-<button (click)="toggleComp.toggle()">Click me</button>
+<!-- cach 1 -->
+
+<!-- <app-toggle #toggleComp></app-toggle>
 <br>
-<app-toggle #toggleComp></app-toggle>
+<button (click)="toggleComp.toggle()">Click me</button> -->
+
+<!-- cach 2 -->
+<!-- <app-toggle #toggleComp></app-toggle>
+<br>
+<button (click)="toggleInside()">Click me</button> -->
+<app-toggle [(checked)]="checked"></app-toggle>
+{{checked}}

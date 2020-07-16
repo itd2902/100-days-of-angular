@@ -6,12 +6,12 @@ import { Component, OnInit, Input, Output, EventEmitter, ViewChild } from '@angu
   styleUrls: ['./toggle.component.css']
 })
 export class ToggleComponent implements OnInit {
-  @ViewChild('toggleComp') toggleComp: ToggleComponent;
   constructor() { }
+  // checked = false;
   @Input() checked = false;
   @Output() checkedChange = new EventEmitter<boolean>();
   ngOnInit(): void {
-
+    console.log(1);
   }
   toggle() {
     this.checked = !this.checked;
